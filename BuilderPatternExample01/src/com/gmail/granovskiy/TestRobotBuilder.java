@@ -18,6 +18,5 @@ public class TestRobotBuilder {
         System.out.println("Robot torso type: " + firstRobot.getRobotTorso());
         System.out.println("Robot arm type: " + firstRobot.getRobotArms());
         System.out.println("Robot leg type: " + firstRobot.getRobotLegs());
-
     }
 }

@@ -9,5 +9,4 @@ public interface RobotPlan {
     public void setRobotArms(String arms);
 
     public void setRobotLegs(String legs);
-
 }
