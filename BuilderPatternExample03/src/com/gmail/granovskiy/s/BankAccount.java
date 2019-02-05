@@ -90,13 +90,8 @@ public class BankAccount {
 
         public BankAccount build() {
             //Here we create the actual bank account object, which is always in a fully initialised state when it's returned.
-            BankAccount account = new BankAccount(3456789L, "Mike", "SouthBranch", 1000000.00, 50.00);
-            account.accountNumber = this.accountNumber;
-            account.owner = this.owner;
-            account.branch = this.branch;
-            account.balance = this.balance;
-            account.interestRate = this.interestRate;
-            return account;
+            BankAccount account = new BankAccount(accountNumber, owner, branch, balance, interestRate);
+            return new BankAccount(accountNumber, owner, branch, balance, interestRate);
         }
     }
 
